@@ -1,3 +1,3 @@
-import { execution } from './cli/execution'
+import { run } from './cli'
 
-execution(process.argv.slice(2))
+run(process.argv.slice(2))
